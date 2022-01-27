@@ -1,0 +1,44 @@
+Running BrowserUp Proxy, powered by LittleProxy.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/D:/soft/browserup-proxy-1.1.0/lib/guice-4.2.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+14:57:14.521 [main] ERROR com.browserup.bup.proxy.Main - Failed to start Jetty server. Aborting.
+java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346) ~[jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308) ~[jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:396) ~[jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.18.v20190429.jar:9.4.18.v20190429]
+	at com.browserup.bup.proxy.Main.main(Main.java:68) [browserup-proxy-dist-1.1.0.jar:?]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:469) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:458) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88) ~[?:?]
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342) ~[jetty-server-9.4.18.v20190429.jar:9.4.18.v20190429]
+	... 7 more
+Exception in thread "main" com.browserup.bup.exception.JettyException: Unable to start Jetty server
+	at com.browserup.bup.proxy.Main.main(Main.java:72)
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:396)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.browserup.bup.proxy.Main.main(Main.java:68)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:469)
+	at java.base/sun.nio.ch.Net.bind(Net.java:458)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342)
+	... 7 more
