@@ -116,7 +116,7 @@ def change_other_style(file):
 
 
 if __name__ == "__main__":
-    my_path = r'F:\1.梅姗姗_第二批\206.李璐雅_人_chIP&RNAseq\李璐雅老师人RNAseq & ChIPseq项目结果交付\2.ChIP'
+    my_path = r'C:\Users\asus\Desktop\1\test2'
 
     # 统计一下运行时间
     start = time.time()
