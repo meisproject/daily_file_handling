@@ -79,7 +79,7 @@ def calmd5forbigfile(file):
 
 
 if __name__ == "__main__":
-    file_path = r'E:\jiangyuying\结肠'
+    file_path = r'C:\Users\asus\Desktop\1\test2'
     with open(os.path.join(file_path, 'md5_allsample.txt'), 'w') as f:
         # for rt, di, fi in os.walk(file_path):
         #     for each_file in fi:
