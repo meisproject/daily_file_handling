@@ -88,7 +88,7 @@ if __name__ == '__main__':
     # t = input(r'请输入circBase序列路径（格式同上）：')  # circBase
     # rf = input(r'请输入输出文件路径（格式如C:\Users\asus\Desktop\1）：')    # 输出文件路径
     s = r'C:\Users\asus\Desktop\1\all.circRNA.fa'  # 平台预测circRNA
-    t = r'F:\1.梅姗姗_第二批\个人\2.代码\4.python\test\circBaseID注释\mouse_mm9_circRNAs_putative_spliced_sequence.fa'  # circBase
+    t = r'C:\Users\asus\Desktop\1\test2\mouse_mm9_circRNAs_putative_spliced_sequence.fa'  # circBase
     rf = r'C:\Users\asus\Desktop\1'    # 输出文件路径
     start = time.time()
     file_list = seq_cut(s)  # 如果序列超过平台预测circRNA超过10000个，切分为4个
