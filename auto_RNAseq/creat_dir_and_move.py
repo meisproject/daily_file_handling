@@ -45,5 +45,5 @@ def createdir_and_move(path):
 
 
 if __name__ == "__main__":
-    my_path = r'F:\1.梅姗姗_第二批\206.李璐雅_人_chIP&RNAseq\李璐雅老师人RNAseq & ChIPseq项目结果交付\2.ChIP\10.PathActNet'
+    my_path = r'C:\Users\asus\Desktop\1\test2'
     createdir_and_move(my_path)
