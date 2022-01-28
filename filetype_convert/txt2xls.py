@@ -56,5 +56,5 @@ def txt_xls(files, dirs, root):
 
 
 if __name__ == "__main__":
-    fis, dis, rot = read_filename(r"F:\1.梅姗姗_第二批\116.孙碧君_人_单细胞（PBMC和脑脊液）\备份\3.2CSF加1PBMC\6.巨噬\data\14.DifGene")
+    fis, dis, rot = read_filename(r"C:\Users\asus\Desktop\1\test2")
     txt_xls(fis, dis, rot)
