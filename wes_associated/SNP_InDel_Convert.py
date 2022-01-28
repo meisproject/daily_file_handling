@@ -1,6 +1,6 @@
 #! /usr/local/bin/python3
 # -*- coding: utf-8 -*-
-# 挑出每个位点每个样本突变率最高的情况，孙彦阔项目
+# 挑出每个位点每个样本突变率最高的情况
 import os
 import glob
 import vcf  # PyVCF包
@@ -51,7 +51,7 @@ def convert(path, file):
 
 
 if __name__ == "__main__":
-    inpath = r'F:\1.梅姗姗_第二批\32.孙彦阔_PCR产物\备份\4.CallVariantion\1.RawVCF'
+    inpath = r'C:\Users\asus\Desktop\1\test2'
     filelist = glob.glob(os.path.join(inpath, r'*.vcf'))  # glob类似于path.listdir，但是可以对文件进一步筛选
     for infile in filelist:
         convert(inpath, infile)
