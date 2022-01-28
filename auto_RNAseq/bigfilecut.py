@@ -40,7 +40,7 @@ def bigfilecut(file):
 
 
 if __name__ == "__main__":
-    my_path = r'F:\1.梅姗姗_第二批\161.毛菲菲_人_全转录组\备份\5.联合分析\2.ceRNAAnalysis\1.不删样本'
+    my_path = r'C:\Users\asus\Desktop\1\test2'
     all_files = os.listdir(my_path)
     os.chdir(my_path)
     for each_file in all_files:
