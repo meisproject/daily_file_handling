@@ -127,7 +127,7 @@ def samtools_vcf2txt(vcf_file, txt):
 
 
 if __name__ == "__main__":
-    path = r'F:\1.梅姗姗_第二批\128.张世仁_人_外显子\备份\3.新增2个样本\5.Call_Variant_Results'
+    path = r'C:\Users\asus\Desktop\1\test2'
     filelist = glob.glob(os.path.join(path, r'*.vcf'))  # glob类似于path.listdir，但是可以对文件进一步筛选
     for file in filelist:
         vcffile = vcf.Reader(filename=file)
