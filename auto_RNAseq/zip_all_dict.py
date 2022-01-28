@@ -30,7 +30,7 @@ def zip_all_dict(path):
 
 
 if __name__ == "__main__":
-    my_path = r'F:\1.梅姗姗_第二批\164.齐雪娇_人_单细胞（脑脊液）\齐雪娇老师单细胞项目结果（LBYY-20210526-scRNA-QXJ-SH）交付2022.01.20'
+    my_path = r'C:\Users\asus\Desktop\1\test2'
     start_time = time.time()
     zip_all_dict(my_path)
     print(f'所有文件夹都压缩好了，耗时{(time.time() - start_time)/60}分钟')
