@@ -1,6 +1,6 @@
 #! /usr/local/bin/python3
 # -*- coding: utf-8 -*-
-# 提取离lncRNA最近的mRNA（李琳售后用）
+# 提取离lncRNA最近的mRNA（拟南芥项目售后用）
 import os
 
 

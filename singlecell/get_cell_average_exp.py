@@ -33,5 +33,5 @@ def get_exp(file_path):
 
 
 if __name__ == "__main__":
-    my_filepath = r'F:\1.梅姗姗_第二批\62.余山河_小鼠_单细胞（骨髓中性粒）\备份\3.5个样本分三类\7.干性和分化基因集（第三次客户给）\4.等高线图'
+    my_filepath = r'C:\Users\asus\Desktop\1\test2'
     get_exp(my_filepath)

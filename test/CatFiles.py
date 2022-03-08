@@ -63,6 +63,6 @@ def CatFiles(files, root):
 
 
 if __name__ == "__main__" :
-    root = r"F:\1.梅姗姗_第二批\154.吉凯_小鼠_单细胞_脂肪\备份\data\2.ScSTAR"
+    root = r"C:\Users\asus\Desktop\1\test2"
     files = select_txt(root)
     CatFiles(files, root)

@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # raw_path = input(r'需要转格式的表格文件夹（子文件夹下的表格也会被处理）：')
     # run_programm = int(input(r'txt2excel请输入1，excel2txt请输入2:'))
     # my_path = InputPath(raw_path)
-    my_path = InputPath(r'F:\1.梅姗姗_第二批\206.李璐雅_人_chIP&RNAseq\李璐雅老师人RNAseq & ChIPseq项目结果交付\2.ChIP')
+    my_path = InputPath(r'C:\Users\asus\Desktop\1\test2')
     # print(my_path.cut_files())
     run_programm = 1
     if run_programm == 1:

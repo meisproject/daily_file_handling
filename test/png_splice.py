@@ -60,7 +60,7 @@ def png_splice(path):
 
 if __name__ == '__main__':
     # filepath = input(u'请输入需要合并的图片文件夹路径：')
-    filepath = r'F:\1.梅姗姗_第二批\68.王新禹_人_CHIPseq\备份\4.Reads-site-Analysis'
+    filepath = r'C:\Users\asus\Desktop\1\test2'
     print(u'合并完成后窗口会自动关闭，请等待……')
     png_splice(filepath)
 

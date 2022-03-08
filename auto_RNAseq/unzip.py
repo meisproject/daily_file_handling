@@ -40,6 +40,6 @@ def unzip(files, dirs, root):
 
 
 if __name__ == "__main__":
-    file_path = r'F:\1.梅姗姗_第二批\206.李璐雅_人_chIP&RNAseq\备份'
+    file_path = r'C:\Users\asus\Desktop\1\test2'
     fi, di, ro = read_file_name(file_path)
     unzip(fi, di, ro)

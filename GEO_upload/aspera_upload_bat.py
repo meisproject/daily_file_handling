@@ -33,7 +33,7 @@ def get_upload_bat(need_upload, ssh_file, max_speed, outfile):
 
 if __name__ == "__main__":
     # fastq_path是存放需要上传的.fastq.gz的路径
-    fastq_path = r'E:\zhangchao\张潮老师-10个样本20200106-10X-5-Novaseq-human-姗姗上传3'
+    fastq_path = r'C:\Users\asus\Desktop\1\test2'
     # ssh_pos是aspera上传的密钥的路径
     ssh_pos = r'C:\Users\asus\Desktop\1\test\sra-1.ssh.priv'
     # out_path是bat文件输出路径

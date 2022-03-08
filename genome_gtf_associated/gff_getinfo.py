@@ -1,6 +1,6 @@
 #! /usr/local/bin/python3
 # -*- coding: utf-8 -*-
-# 提取gff文件中基因id、symbol、描述（李琳售后用）
+# 提取gff文件中基因id、symbol、描述（拟南芥项目售后用）
 import os
 import re
 
