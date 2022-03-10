@@ -1,7 +1,7 @@
 #! /usr/local/bin/python3
 # coding:utf-8
 """
-王莹项目，重新计算clonotype，如果两个细胞的链完全一致，且链对应的cdr3序列也完全一致，算一个clonotype
+重新计算clonotype，如果两个细胞的链完全一致，且链对应的cdr3序列也完全一致，算一个clonotype
 """
 import glob
 import os
