@@ -1,7 +1,7 @@
 #! /usr/local/bin/python3
 # coding:utf-8
 """
-王莹项目，按照chain进行过滤，要求保留:
+按照chain进行过滤，要求保留:
 1.只有重链；
 2.同时有重链和轻链
 """
